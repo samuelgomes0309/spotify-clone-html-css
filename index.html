@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Spotify home | Clone</title>
+		<link rel="stylesheet" href="src/styles/styles.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<div class="sidebar-container">
+				<div class="sidebar-content">
+					<div class="sidebar-title">
+						<i class="fa-brands fa-spotify"></i>
+						<h1>Spotify</h1>
+					</div>
+					<nav class="nav-container">
+						<ul>
+							<li>
+								<a href="#"><i class="fa-solid fa-house-chimney"></i> Home </a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa-solid fa-magnifying-glass"></i> Search</a
+								>
+							</li>
+							<li>
+								<a href="#"><i class="fa-solid fa-book"></i>Your Library</a>
+							</li>
+						</ul>
+						<ul id="second-ul">
+							<li>
+								<a href="/src/screens/playlist/index.html"
+									><i class="fa-solid fa-square-plus"></i> Create Playlist
+								</a>
+							</li>
+							<li>
+								<a href="#" id="liked-songs"
+									><i class="fa-solid fa-heart"></i> Liked Songs
+								</a>
+							</li>
+						</ul>
+					</nav>
+					<footer class="footer-container">
+						<nav class="nav-footer-container">
+							<ul>
+								<li><a href="">Legal</a></li>
+								<li><a href="">Privacy Center</a></li>
+								<li><a href="">Privacy Policy</a></li>
+								<li><a href="">Cookies</a></li>
+								<li><a href="">About</a></li>
+								<li><a href="">Ads</a></li>
+							</ul>
+						</nav>
+						<button class="btn-language">
+							<i class="fa-solid fa-globe"></i>English
+						</button>
+					</footer>
+				</div>
+			</div>
+			<div class="home-container">
+				<header class="header-container">
+					<a id="signup" href="">Sign up</a>
+					<a id="login" href="">Log in</a>
+				</header>
+				<main class="main-container">
+					<section>
+						<div class="section-title-container">
+							<h2 class="section-title">Focus</h2>
+							<a href="#">Show all</a>
+						</div>
+						<section class="cards-container">
+							<div class="card-item-container">
+								<div class="logo-container">
+									<img
+										class="logo-img"
+										src="src/images/peacefulPiano.png"
+										alt="Logo Album Peaceful Piano"
+									/>
+								</div>
+								<span>Peaceful Piano</span>
+								<p>Peaceful piano to help you slow down, breathe, and</p>
+							</div>
+							<div class="card-item-container">
+								<div class="logo-container">
+									<img
+										class="logo-img"
+										src="src/images/deepFocus.png"
+										alt="Logo Album Deep Focus"
+									/>
+								</div>
+								<span>Deep Focus</span>
+								<p>Keep calm and focus with ambient and post-rock music.</p>
+							</div>
+							<div class="card-item-container">
+								<div class="logo-container">
+									<img
+										class="logo-img"
+										src="src/images/instrumentalStudy.png"
+										alt="Logo Album Instrumental Study"
+									/>
+								</div>
+								<span>Instrumental Study</span>
+								<p>Focus with soft study music in the background.</p>
+							</div>
+							<div class="card-item-container">
+								<div class="logo-container">
+									<img
+										class="logo-img"
+										src="src/images/focusFlow.png"
+										alt="Logo Album Focus Flow"
+									/>
+								</div>
+								<span>Focus Flow</span>
+								<p>Uptempo instrumental hip hop beats.</p>
+							</div>
+							<div class="card-item-container">
+								<div class="logo-container">
+									<img
+										class="logo-img"
+										src="src/images/beats.png"
+										alt="Logo Album Beats to think to"
+									/>
+								</div>
+								<span>Beats to think to</span>
+								<p>Focus with deep techno and tech house.</p>
+							</div>
+						</section>
+					</section>
+					<section id="playlists">
+						<div class="section-title-container">
+							<h2 class="section-title">Spotify Playlists</h2>
+							<a href="#">Show all</a>
+						</div>
+						<section class="cards-container">
+							<div class="card-item-container">
+								<div class="logo-container">
+									<img
+										class="logo-img"
+										src="src/images/todays.png"
+										alt="Logo Album Today’s Top Hits"
+									/>
+								</div>
+								<span>Today’s Top Hits</span>
+								<p>Harry Styles is on top of the Hottest 50!</p>
+							</div>
+							<div class="card-item-container">
+								<div class="logo-container">
+									<img
+										class="logo-img"
+										src="src/images/rap.png"
+										alt="Logo Album RapCaviar"
+									/>
+								</div>
+								<span>RapCaviar</span>
+								<p>New music from Lil Baby, Gucci Mane and DaBaby.</p>
+							</div>
+							<div class="card-item-container">
+								<div class="logo-container">
+									<img
+										class="logo-img"
+										src="src/images/allOut.png"
+										alt="Logo Album All Out 2010s"
+									/>
+								</div>
+								<span>All Out 2010s</span>
+								<p>The biggest songs of the 2010s.</p>
+							</div>
+							<div class="card-item-container">
+								<div class="logo-container">
+									<img
+										class="logo-img"
+										src="src/images/rock.png"
+										alt="Logo Album Rock Classics"
+									/>
+								</div>
+								<span>Rock Classics</span>
+								<p>Rock legends & epic songs that continue to inspire...</p>
+							</div>
+							<div class="card-item-container">
+								<div class="logo-container">
+									<img
+										class="logo-img"
+										src="src/images/chilHits.png"
+										alt="Logo Album Chill Hits"
+									/>
+								</div>
+								<span>Chill Hits</span>
+								<p>Kick back to the best new and recent chill hits.</p>
+							</div>
+						</section>
+					</section>
+				</main>
+			</div>
+		</div>
+	</body>
+</html>

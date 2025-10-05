@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Spotify Playlist | Clone</title>
+		<link rel="stylesheet" href="../../styles/styles.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<div class="sidebar-container">
+				<div class="sidebar-content">
+					<div class="sidebar-title">
+						<i class="fa-brands fa-spotify"></i>
+						<h1>Spotify</h1>
+					</div>
+					<nav class="nav-container">
+						<ul>
+							<li>
+								<a href="../../../index.html"
+									><i class="fa-solid fa-house-chimney"></i> Home
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa-solid fa-magnifying-glass"></i> Search</a
+								>
+							</li>
+							<li>
+								<a href="#"><i class="fa-solid fa-book"></i>Your Library</a>
+							</li>
+						</ul>
+						<ul id="second-ul">
+							<li>
+								<a href="/src/screens/playlist/index.html"
+									><i class="fa-solid fa-square-plus"></i> Create Playlist
+								</a>
+							</li>
+							<li>
+								<a href="#" id="liked-songs"
+									><i class="fa-solid fa-heart"></i> Liked Songs
+								</a>
+							</li>
+						</ul>
+					</nav>
+					<footer class="footer-container">
+						<nav class="nav-footer-container">
+							<ul>
+								<li><a href="">Legal</a></li>
+								<li><a href="">Privacy Center</a></li>
+								<li><a href="">Privacy Policy</a></li>
+								<li><a href="">Cookies</a></li>
+								<li><a href="">About</a></li>
+								<li><a href="">Ads</a></li>
+							</ul>
+						</nav>
+						<button class="btn-language">
+							<i class="fa-solid fa-globe"></i>English
+						</button>
+					</footer>
+				</div>
+			</div>
+			<div class="home-container">
+				<header class="header-container">
+					<a id="signup" href="">Sign up</a>
+					<a id="login" href="">Log in</a>
+				</header>
+				<main class="main-container reset-spacing">
+					<section class="main-header-container">
+						<img
+							src="../../images/deepFocus2x.png"
+							alt="Photo - Playlist Deep Focus"
+						/>
+						<div class="main-header-content">
+							<span>Playlist</span>
+							<h1>Deep focus</h1>
+							<p>Keep calm and focus with ambient and post-rock music.</p>
+							<div class="main-header-list">
+								<ul class="main-header-list-content">
+									<li id="spotify-icon">
+										<i class="fa-brands fa-spotify"></i>
+										<span>Spotify</span>
+									</li>
+									<li>3,940,865 likes</li>
+									<li>252 songs,</li>
+									<li>about 10 hr</li>
+								</ul>
+							</div>
+						</div>
+					</section>
+					<section class="playlist-music-container">
+						<ul class="playlist-options-container">
+							<li>
+								<button id="btn-play"><i class="fa-solid fa-play"></i></button>
+							</li>
+							<li>
+								<button id="btn-like"><i class="fa-solid fa-heart"></i></button>
+							</li>
+							<li>
+								<button id="btn-options">
+									<i class="fa-solid fa-ellipsis"></i>
+								</button>
+							</li>
+						</ul>
+						<table class="musics-table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Title</th>
+									<th class="album">Album</th>
+									<th class="added">Date added</th>
+									<th><i class="fa-solid fa-clock"></i></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td class="td-title">
+										<img src="../../images/rap.png" alt="" />
+										<div>
+											<span>Rap</span>
+											<span>xxx</span>
+										</div>
+									</td>
+									<td class="album">
+										<span>Rap Internacional</span>
+									</td>
+									<td class="added">
+										<span>1 week ago</span>
+									</td>
+									<td>
+										<span>4:50</span>
+									</td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td class="td-title">
+										<img src="../../images/beats.png" alt="" />
+										<div>
+											<span>Beats</span>
+											<span>44545x</span>
+										</div>
+									</td>
+									<td class="album">
+										<span>Beats song</span>
+									</td>
+									<td class="added">
+										<span>1 week ago</span>
+									</td>
+									<td>
+										<span>3:31</span>
+									</td>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td class="td-title">
+										<img src="../../images/rock.png" alt="" />
+										<div>
+											<span>Bohemian Rhapsody</span>
+											<span>Queen</span>
+										</div>
+									</td>
+									<td class="album">
+										<span>Rock Songs</span>
+									</td>
+									<td class="added">
+										<span>1 week ago</span>
+									</td>
+									<td>
+										<span>2:05</span>
+									</td>
+								</tr>
+								<tr>
+									<td>4</td>
+									<td class="td-title">
+										<img src="../../images/allOut.png" alt="" />
+										<div>
+											<span>The beast All out</span>
+											<span>5454</span>
+										</div>
+									</td>
+									<td class="album">
+										<span>The beast </span>
+									</td>
+									<td class="added">
+										<span>1 week ago</span>
+									</td>
+									<td>
+										<span>2:32</span>
+									</td>
+								</tr>
+								<tr>
+									<td>5</td>
+									<td class="td-title">
+										<img src="../../images/todays.png" alt="" />
+										<div>
+											<span>All todays songs</span>
+											<span>33aa</span>
+										</div>
+									</td>
+									<td class="album">
+										<span>Today’s</span>
+									</td>
+									<td class="added">
+										<span>1 week ago</span>
+									</td>
+									<td>
+										<span>2:36</span>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</section>
+				</main>
+			</div>
+		</div>
+	</body>
+</html>
